@@ -138,9 +138,9 @@ AC_CONFIG_FILES([
 	glesv2/glesv2.pc
 	glesv2/Makefile
 	hardware/Makefile
-	hardware/hybris-hardware.pc
+	hardware/libhardware.pc
 	libsync/Makefile
-	libsync/hybris-sync.pc
+	libsync/libsync.pc
 	ui/Makefile
 	sf/Makefile
 	input/Makefile

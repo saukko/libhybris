@@ -2,7 +2,7 @@ lib_LTLIBRARIES = \
 	libhardware.la
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = hybris-hardware.pc
+pkgconfig_DATA = libhardware.pc
 
 libhardware_la_SOURCES = hardware.c
 libhardware_la_CFLAGS = -I$(top_srcdir)/include
